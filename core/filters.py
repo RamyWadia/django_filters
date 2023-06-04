@@ -8,7 +8,7 @@ class BookFilter(django_filters.FilterSet):
     class Meta:
         model = Book
         fields = {
-            "name": ["istartswith"],
-            "author__name": ["icontains"],
+            "name": ["icontains"],
+            "author__name": ["istartswith"],
             "genre": ["exact"],
         }

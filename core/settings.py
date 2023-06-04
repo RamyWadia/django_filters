@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "books",
     # 3rd party
     "django_filters",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
