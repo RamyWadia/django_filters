@@ -44,7 +44,7 @@ class Command(BaseCommand):
             name="Death On The Nile",
             author=christie,
             price=14.99,
-            genre=Book.GenreChoices.SCI_FI,
+            genre=Book.GenreChoices.CRIME,
             number_in_stock=8,
         )
 
